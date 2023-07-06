@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+}
+
+.films {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.film {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.film:hover {
+    background-color: #f4f4f4;
+}
+
+.watched {
+    text-decoration: line-through;
+}
+
+.fa-trash {
+    color: red;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+
+form input[type="submit"] {
+    width: 100px;
+}

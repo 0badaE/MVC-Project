@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+    <h1>Films to Watch:</h1>
+    <ul class="films">
+        <% for(let i=0; i < items.length; i++) {%>
+            <li class="film">
+                <% if(items[i].completed === true) {%>
+                    <span class='watched'><%= items[i].film %></span>
+                <% }else{ %>
+                    <span><%= items[i].film %></span>
+                <% } %>    
+                <span class="fa fa-trash"></span>
+            </li>
+        <% } %>
+        </ul>
+
+    <h2>Films left to Watch: <%= left %></h2>
+
+    <h2>Add a Film:</h2>
+    <form action="/addToWatch" method="post">
+        <input type="text" placeholder="Film to Watch" name="toWatchFilm">
+        <input type="submit">
+    </form>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
