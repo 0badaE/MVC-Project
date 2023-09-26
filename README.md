@@ -3,7 +3,7 @@ film list - full stack app linked with a MDB DB (could not host since Heroku is 
 
 This is my very first full stack web application!
 
-This is a Film list where the user can create a list of film he would like to watch, there is a counter that counts down how many films are left
+This is a Film list where the user can create a list of films he would like to watch, there is a counter that counts down how many films are left
 and when the user presses on the film he already watched the film gets crossed out and the counter gets substracted by 1. 
 
 The film list is stored in a MongoDB Database that is the special part of this app. 
