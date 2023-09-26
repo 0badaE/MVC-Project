@@ -8,9 +8,8 @@ and when the user presses on the film he already watched the film gets crossed o
 
 The film list is stored in a MongoDB Database that is the special part of this app. 
 
-I used an MVC architecture to build this app, all things regarding the viewing are stored together, all things regarding  
-
-I will provide screenshots to show how the film list app
+I used an MVC architecture to build this app
+I will provide screenshots to show how the film list app works in summary.
 
 ![image](https://github.com/0badaE/FilmList/assets/105763414/c661c0e7-a016-4dde-a569-57b25f107c01)
 
